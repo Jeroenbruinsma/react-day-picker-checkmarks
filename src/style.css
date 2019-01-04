@@ -11,7 +11,13 @@
   flex-direction: row;
   padding-bottom: 1em;
 
-  user-select: none;
+  -webkit-user-select: none;
+
+     -moz-user-select: none;
+
+      -ms-user-select: none;
+
+          user-select: none;
 }
 
 .DayPicker-Months {
@@ -27,7 +33,13 @@
   border-spacing: 0;
   border-collapse: collapse;
 
-  user-select: none;
+  -webkit-user-select: none;
+
+     -moz-user-select: none;
+
+      -ms-user-select: none;
+
+          user-select: none;
 }
 
 .DayPicker-NavBar {
@@ -186,7 +198,7 @@
 .DayPicker-Day--selected:not(.DayPicker-Day--disabled):not(.DayPicker-Day--outside):hover {
   background-color: #51A0FA;
 }
-
+c
 .DayPicker:not(.DayPicker--interactionDisabled)
   .DayPicker-Day:not(.DayPicker-Day--disabled):not(.DayPicker-Day--selected):not(.DayPicker-Day--outside):hover {
   background-color: #F0F8FF;
@@ -196,6 +208,13 @@
 
 .DayPickerInput {
   display: inline-block;
+}
+
+.DayPickerOutput {
+  color: #767f84;
+  height:4.6rem;
+  max-width: 480px;
+  padding: 1.25rem 1.5rem;
 }
 
 .DayPickerInput-OverlayWrapper {
