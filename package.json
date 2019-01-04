@@ -1,6 +1,6 @@
 {
-  "name": "react-day-picker",
-  "version": "7.2.4",
+  "name": "@ivyfang/react-day-picker",
+  "version": "7.2.8",
   "description": "Flexible date picker component for React",
   "main": "DayPicker.js",
   "style": "lib/style.css",
@@ -32,7 +32,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gpbl/react-day-picker.git"
+    "url": "git+https://github.com/Ivyfang307/react-day-picker.git"
   },
   "keywords": [
     "react",
@@ -46,10 +46,10 @@
     "moment",
     "momentjs"
   ],
-  "author": "Giampaolo Bellavite <io@gpbl.org>",
+  "author": "Ivy Fang <ivyfanglingqing@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gpbl/react-day-picker/issues"
+    "url": "https://github.com/Ivyfang307/react-day-picker/issues"
   },
   "homepage": "https://react-day-picker.js.org",
   "peerDependencies": {
